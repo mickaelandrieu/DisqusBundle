@@ -1,0 +1,20 @@
+Disqus:
+    properties:
+        name: Disqus
+        description: Add a Disqus integration block from a shareable short name
+        labelized-by: title->value
+        category: [Comment]
+    elements:
+        title:
+            type: BackBee\ClassContent\Element\Text
+            label: Title
+            default:
+                value: "Disqus title"
+            parameters:
+                rte: lite
+    parameters:
+        short_name:
+            type: "text"
+            inline: true
+            label: "Short name of the Disqus block"
+            value: ''

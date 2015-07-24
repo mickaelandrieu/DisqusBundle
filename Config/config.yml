@@ -1,0 +1,7 @@
+bundle:
+    name: DisqusBundle
+    description: DisqusBundle provides disqus service integration for BackBee CMS
+    author: Mickaël Andrieu <mickael.andrieu@lp-digital.fr>
+    version: 1
+    enable: true
+    config_per_site: false
