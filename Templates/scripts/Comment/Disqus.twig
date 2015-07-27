@@ -1,7 +1,10 @@
 <div id="disqus_thread" {{ this.bbcontent(null, {'class': 'disqus-block'})|raw }}></div>
+
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = 'testbackbee';
+    {% set container = this.getRenderer().getApplication().getContainer() %}
+    var disqus_shortname = '{{ container.getParameter("bundle.disqus.short_name") }}';
+    var disqus_identifier = '{{ this.getObject().getUid() }}';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {

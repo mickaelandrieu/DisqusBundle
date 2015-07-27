@@ -1,6 +1,6 @@
 <?php
 
-namespace BackBee\Bundle\DisqusBundle;
+namespace Am\Bundle\DisqusBundle;
 
 /*
  * Copyright (c) 2011-2015 Lp digital system

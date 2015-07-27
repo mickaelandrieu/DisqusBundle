@@ -12,9 +12,3 @@ Disqus:
                 value: "Disqus title"
             parameters:
                 rte: lite
-    parameters:
-        short_name:
-            type: "text"
-            inline: true
-            label: "Short name of the Disqus block"
-            value: ''

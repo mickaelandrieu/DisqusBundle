@@ -1,0 +1,26 @@
+{
+    "name": "mickaelandrieu/disqus-bundle",
+    "description": "BackBee bundle to provide Disqus Comment integration",
+    "type": "backbee-bundle",
+    "license": "GPL-3.0+",
+    "keywords": ["backbee", "disqus", "comment"],
+    "homepage": "https://github.com/mickaelandrieu/DisqusBundle",
+    "authors": [
+        {
+            "name": "Mickaël Andrieu",
+            "email": "mickael.andrieu@lp-digital.fr"
+        }
+    ],
+    "require": {
+        "backbee/backbee": "1.0.*@dev"
+    },
+    "autoload": {
+        "psr-4": { "Am\\Bundle\\DisqusBundle\\": "" }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
