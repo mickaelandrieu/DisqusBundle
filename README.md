@@ -36,4 +36,6 @@ parameters:
 
 You can know access the new block "Disqus" in "Comment" category.
 
+![Disqus Block Comment](http://i.imgur.com/WENzTKR.png)
+
 
